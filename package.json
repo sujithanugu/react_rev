@@ -1,0 +1,22 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React Dev",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujithanugu/react_rev.git"
+  },
+  "author": "Sujith Reddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sujithanugu/react_rev/issues"
+  },
+  "homepage": "https://github.com/sujithanugu/react_rev#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
