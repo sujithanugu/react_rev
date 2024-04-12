@@ -1,17 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const heading = React.createElement("div", { id: "parent" }, [
-  React.createElement("div", { id: "child" }, [
-    React.createElement("h1", { id: "h1c" }, "I'm #H-TAG"),
-    React.createElement("h2", {}, "I'm H2"),
-  ]),
-  React.createElement("div", { id: "child2" }, [
-    React.createElement("h1", { id: "h1c" }, "I'm H1"),
-    React.createElement("h2", {}, "I'm H2"),
-  ]),
-]);
-
+// @ const heading = React.createElement("h1", {id: "heading"}, "Hello World!");
+//Using JSX
+const heading = <h1 id="heading">Hello World!</h1>;
+//console.log(heading); here heading is an object same as @
 const root = ReactDOM.createRoot(document.getElementById("root"));
-//console.log(root);
 root.render(heading);
